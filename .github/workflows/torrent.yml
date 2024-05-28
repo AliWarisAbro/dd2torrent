@@ -1,14 +1,14 @@
-name: Create torrent
+name: gta sa 
 on:
   push:
     branches:
       - master
       
 env:
-  name: "Android Studio and SDK Tools"
-  comment: "Android Studio for Windows"
-  url: "https://redirector.gvt1.com/edgedl/android/studio/install/4.1.2.0/android-studio-ide-201.7042882-windows.exe"
-  file_name: "android-studio-ide-201.7042882-windows.exe"
+  name: "gta"
+  comment: "gta"
+  url: "https://download191.uploadhaven.com/1/application/zip/5juqQiHkNt3Vz2Fsa5izUgCaBAd4CkTE7cO47Ux5.zip?key=ayh9-6Wp4dEip69gjcBrrA&expire=1717146591&filename=GrandTheftAuto-SanAndreas.zip"
+  file_name: "gta sa"
   piece_size: 19 # Check the README.md for recommended piece size
       
 jobs:
